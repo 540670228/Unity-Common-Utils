@@ -20,7 +20,7 @@ public class GenrateResConfig : Editor
             {
                 Directory.CreateDirectory("Assets/StreamingAssets");
             }
-            File.AppendAllLines("Assets/StreamingAssets/ConfigMap", mapArr);
+            File.AppendAllLines("Assets/StreamingAssets/ConfigMap.txt", mapArr);
         }
         //Ë¢ÐÂ
         AssetDatabase.Refresh();
